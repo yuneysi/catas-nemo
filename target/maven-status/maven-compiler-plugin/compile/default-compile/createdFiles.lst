@@ -6,6 +6,7 @@ org/openapitools/RFC3339DateFormat.class
 org/openapitools/configuration/SpringDocConfiguration.class
 com/sii/api/model/ExteriorColor.class
 com/sii/api/CatalogApi$1.class
+main/java/com/sii/nextcatas/controller/CatasController.class
 com/sii/api/CatalogApi.class
 com/sii/api/model/InteriorTiles.class
 com/sii/api/ApiUtil.class
