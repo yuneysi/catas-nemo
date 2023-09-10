@@ -1,6 +1,6 @@
 package org.openapitools.configuration;
 
-import com.sii.api.model.EquipmentType;
+import com.sii.catas.api.model.EquipmentType;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

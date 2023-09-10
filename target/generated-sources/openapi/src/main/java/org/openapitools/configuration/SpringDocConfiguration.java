@@ -18,8 +18,8 @@ public class SpringDocConfiguration {
         return new OpenAPI()
                 .info(
                         new Info()
-                                .title("next-catalog-service-api")
-                                .description("Next Catalog Service API (CATAS)")
+                                .title("catalog-service-api-for-nemo")
+                                .description("Catalog Service API For Nemo (CATAS For Nemo)")
                                 .contact(
                                         new Contact()
                                                 .email("backend@sii.com")

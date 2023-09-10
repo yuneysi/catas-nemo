@@ -9,10 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sii</groupId>
-	<artifactId>nextcatas</artifactId>
+	<artifactId>catas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>nextgencatas</name>
-	<description>The new CATAS Service</description>
+	<description>The new CATAS Service for NEMO</description>
 
 	<properties>
 		<java.version>17</java.version>
@@ -172,7 +171,7 @@
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
 					<configuration>
-						<mainClass>com.sii.nextcatas.NextcatasApplication</mainClass>
+						<mainClass>com.sii.catas.CatasNemoApplication</mainClass>
 					</configuration>
 				</plugin>
 			<plugin>
@@ -187,8 +186,8 @@
 						<configuration>
 							<inputSpec>${project.basedir}/src/main/resources/api/api.yaml</inputSpec>
 							<generatorName>spring</generatorName>
-							<apiPackage>com.sii.api</apiPackage>
-							<modelPackage>com.sii.api.model</modelPackage>
+							<apiPackage>com.sii.catas.api</apiPackage>
+							<modelPackage>com.sii.catas.api.model</modelPackage>
 							<configOptions>
 								<delegatePattern>true</delegatePattern>
 								<useSpringBoot3>true</useSpringBoot3>

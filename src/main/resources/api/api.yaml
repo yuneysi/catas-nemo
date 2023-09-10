@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
-  title: next-catalog-service-api
-  description: 'Next Catalog Service API (CATAS)'
+  title: catalog-service-api-for-nemo
+  description: 'Catalog Service API For Nemo (CATAS For Nemo)'
   contact:
     email: backend@sii.com
   version: "0.5"
@@ -10,21 +10,22 @@ servers:
   - url: http://tbd
 
 tags:
-  - name: next-catalog-data
-    description: Next catalog data
+  - name: catalog-data-for-nemo
+    description: catalog data for nemo
 
 paths:
 
-  /catalog/{carlineId}/modelId}:
+  /catalog/{carlineId}/{modelId}/{cdbLanguageCode}:
     get:
       tags:
-        - next-catalog-data
+        - catalog-data-for-nemo
       summary: List all equipments by model id.
       description: Return the entire catalog for a model.
       operationId: getCatalogDataForModel
       parameters:
         - $ref: "#/components/parameters/carlineIdPathParameter"
         - $ref: "#/components/parameters/modelIdParameter"
+        - $ref: "#/components/parameters/cdbLanguageCodeParameter"
       responses:
         '200':
           description: Returning a list of exterior
@@ -322,6 +323,15 @@ components:
         type: string
         example: "8vfanc-0-2020"
         description: The id of the model
+
+    cdbLanguageCodeParameter:
+      in: query
+      name: cdbLanguageCode
+      required: true
+      schema:
+        type: string
+        example: "de"
+        description: The code of the cdb language
 
   responses:
 

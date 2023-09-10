@@ -5,35 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09bf228b-392e-4b77-98d0-a6f2f7044deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/defaultconfiguration/DefaultConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/defaultconfiguration/model/BussinessRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/repertoire/StaticRepertoire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/accessory/client/AccessoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/accessory/service/AccessoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/category/client/CategoryClent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/category/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/cdb/service/Cdb2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/controller/CatalogForNemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/ecl/service/ExclusiveColorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/cache/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/client/OkapiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/sii/nextcatas/controller/CatasController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Accessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Accessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/CatalogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/CatalogResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentFamily.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentFamily.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/ExteriorColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/ExteriorColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/InteriorTiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/InteriorTiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/PackageContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/PackageContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/NextcatasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/CatasNemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/defaultconfiguration/DefaultConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/defaultconfiguration/DefaultConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/defaultconfiguration/model/BussinessRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/defaultconfiguration/model/BussinessRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/repertoire/StaticRepertoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/repertoire/StaticRepertoireService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/api/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/api/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sii/nextcatas/NextcatasApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/ApiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApiController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApiDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/Accessories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/CatalogResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/Equipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/EquipmentFamily.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/EquipmentGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/EquipmentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/ExteriorColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/InteriorTiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/PackageContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/nextcatas/NextcatasApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/OpenApiGeneratorApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/OpenApiGeneratorApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/SpringDocConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/SpringDocConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/api.yaml-default.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/api.yaml-default.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/ApiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiDelegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Accessories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/CatalogResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Equipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentFamily.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/ExteriorColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/InteriorTiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/PackageContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/OpenApiGeneratorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/OpenApiGeneratorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/EnumConverterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/EnumConverterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/SpringDocConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/SpringDocConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/resources/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/resources/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sii.nextcatas.NextcatasApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sii.nextcatas.NextcatasApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sii.nextcatas.NextcatasApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.sii.nextcatas.NextcatasApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sii.nextcatas.NextcatasApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sii.nextcatas.NextcatasApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sii/nextcatas/NextcatasApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +102,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="mavenHome" value="/Library/apache-maven-3.9.4" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -75,9 +121,63 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/yuneysi/github/nextgencatas"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/g1643/github/catas-nemo/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenApiGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="catas-nemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.openapitools.OpenApiGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/src/main/resources/api/api.yaml" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +186,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694303038064</updated>
+      <workItem from="1694360394959" duration="5181000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
