@@ -20,7 +20,7 @@ import jakarta.annotation.Generated;
  * ExteriorColor
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-10T01:34:03.888610+02:00[Europe/Berlin]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-10T01:47:17.270867+02:00[Europe/Berlin]")
 public class ExteriorColor {
 
   private String id;
