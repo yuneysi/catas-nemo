@@ -4,82 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bf228b-392e-4b77-98d0-a6f2f7044deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/accessory/client/AccessoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/accessory/service/AccessoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/category/client/CategoryClent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/category/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/cdb/service/Cdb2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/controller/CatalogForNemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/ecl/service/ExclusiveColorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/cache/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/client/OkapiClient.java" afterDir="false" />
+    <list default="true" id="09bf228b-392e-4b77-98d0-a6f2f7044deb" name="Changes" comment="Add more functionality">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/CatalogForNemoFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/okapi/DefaultConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/okapi/OkapiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/okapi/StaticRepertoireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/model/BussinessRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/model/ItemDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/model/OkapiContextParameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/NextcatasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/CatasNemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/defaultconfiguration/DefaultConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/defaultconfiguration/DefaultConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/defaultconfiguration/model/BussinessRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/defaultconfiguration/model/BussinessRules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/nextcatas/okapi/repertoire/StaticRepertoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/repertoire/StaticRepertoireService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/CatasNemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/CatasNemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/accessory/client/AccessoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/accessory/AccessoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/accessory/service/AccessoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/accessory/AccessoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/category/client/CategoryClent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/category/CategoryClent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/category/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/category/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/cdb/service/Cdb2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/cdb/Cdb2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/controller/CatalogForNemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/api/web/CatalogForNemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/ecl/service/ExclusiveColorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/cache/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sii/catas/facade/okapi/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/client/OkapiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/defaultconfiguration/DefaultConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/defaultconfiguration/model/BussinessRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sii/catas/okapi/repertoire/StaticRepertoireService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/api/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/api/api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sii/nextcatas/NextcatasApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/api/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/ApiUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApi$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApiController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/CatalogApiDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/Accessories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/CatalogResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/Equipment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/EquipmentFamily.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/EquipmentGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/EquipmentType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/Error.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/ExteriorColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/InteriorTiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/api/model/PackageContent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sii/nextcatas/NextcatasApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/OpenApiGeneratorApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/OpenApiGeneratorApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/EnumConverterConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/SpringDocConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/openapitools/configuration/SpringDocConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/api.yaml-default.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/api.yaml-default.sha256" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/ApiUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/CatalogApiDelegate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Accessories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/CatalogResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Equipment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentFamily.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/EquipmentType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/Error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/ExteriorColor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/InteriorTiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/sii/api/model/PackageContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/OpenApiGeneratorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/OpenApiGeneratorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/EnumConverterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/EnumConverterConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/SpringDocConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/org/openapitools/configuration/SpringDocConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/resources/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/resources/openapi.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/test/java/org/openapitools/OpenApiGeneratorApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nextcatas-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sii.nextcatas.NextcatasApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sii.nextcatas.NextcatasApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sii/nextcatas/NextcatasApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +57,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/modulith/spring-modulith-observability/1.0.0/spring-modulith-observability-1.0.0.jar!/org/springframework/modulith/observability/autoconfigure/ModuleObservabilityAutoConfiguration.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -111,30 +87,38 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/g1643/github/catas-nemo/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/g1643/github/catas-nemo/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;31a1a36b6c8b52caeebde74b3ae61ba2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
@@ -142,7 +126,14 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CatasNemoApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,6 +141,19 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatasNemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="catas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sii.catas.CatasNemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sii.catas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,6 +181,11 @@
       <option name="specificationPath" value="$PROJECT_DIR$/src/main/resources/api/api.yaml" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CatasNemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,12 +195,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694303038064</updated>
-      <workItem from="1694360394959" duration="5181000" />
+      <workItem from="1694360394959" duration="16589000" />
+      <workItem from="1694471551722" duration="8345000" />
+      <workItem from="1694614195455" duration="2129000" />
+      <workItem from="1694891670419" duration="601000" />
+      <workItem from="1695212195050" duration="1644000" />
     </task>
+    <task id="LOCAL-00001" summary="Add more functionality">
+      <created>1694369343536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694369343537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add more functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more functionality" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/modulith/spring-modulith-observability/1.0.0/spring-modulith-observability-1.0.0.jar!/org/springframework/modulith/observability/autoconfigure/ModuleObservabilityAutoConfiguration.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

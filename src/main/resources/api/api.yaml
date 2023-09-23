@@ -15,8 +15,8 @@ tags:
 
 paths:
 
-  /catalog/{carlineId}/{modelId}/{cdbLanguageCode}:
-    get:
+  /catalog/{carlineId}/{modelId}:
+    post:
       tags:
         - catalog-data-for-nemo
       summary: List all equipments by model id.
@@ -25,7 +25,13 @@ paths:
       parameters:
         - $ref: "#/components/parameters/carlineIdPathParameter"
         - $ref: "#/components/parameters/modelIdParameter"
-        - $ref: "#/components/parameters/cdbLanguageCodeParameter"
+      requestBody:
+        description: Optional description in *Markdown*
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InpuParameters'
       responses:
         '200':
           description: Returning a list of exterior
@@ -45,10 +51,7 @@ paths:
           $ref: "#/components/responses/NotFound"
 
 components:
-
   schemas:
-
-
     CatalogResponse:
       type: object
       properties:
@@ -241,6 +244,22 @@ components:
         - id
         - mbvId
 
+    #Price:
+    #  type: string
+   #   example: "120"
+
+   # Benefits:
+   #   type: object
+   #   additionalProperties:
+  #      type: string
+   #     example:
+  #        "Traffic Light Information¹",
+   #       "Satellite Imagery",
+  #        "Amazon Alexa Integration²",
+  #        "Online/Hybrid Radio",
+    #      "Full-speed Wi-Fi Hotspot³"
+
+
     Texts:
       type: object
       additionalProperties:
@@ -265,7 +284,6 @@ components:
           "width": 200
           "height": 200
 
-
     AttributeInfo:
       type: object
       additionalProperties:
@@ -278,7 +296,6 @@ components:
         # "wheel-size": "16"
         # "type": "wheel"*
 
-
     ModelFilter:
       type: object
       additionalProperties:
@@ -288,6 +305,73 @@ components:
         "Getriebeart": "S"
         "Motorart": "0"
 
+    InpuParameters:
+      type: object
+      properties:
+        cdbParameters:
+          $ref: "#/components/schemas/CdbParameters"
+        okapiParamters:
+          $ref: "#/components/schemas/OkapiParameters"
+      required:
+        - cdbParameters
+        - okapiParamters
+
+    CdbParameters:
+      type: object
+      properties:
+        market:
+          type: string
+          description: the market code
+          example: "50000"
+        cdbLanguage:
+          type: string
+          description: The cdb language
+          example: "de-DE"
+        modelYear:
+          type: string
+          description: the model year
+          example: 2023
+        salesgroup:
+          type: string
+          example: "50125"
+        modelCode:
+          type: string
+          example: the model full code including version and extensions"
+      required:
+        - market
+        - cdbLanguageCode
+        - countryCode
+        - language
+
+    OkapiParameters:
+      type: object
+      properties:
+        pdk:
+          type: string
+          description: pdk
+          example: "NEMO"
+        countryCode:
+          type: string
+          description: The country code
+          example: "DE"
+        brand:
+          type: string
+          description: the brand. AU=Audi
+          example: AU
+        language:
+          type: string
+          example: "de"
+        preferredOptions:
+          type: string
+          example: tbd
+        forbiddenOptions:
+          type: string
+          example: "tbd"
+      required:
+        - pdk
+        - brand
+        - countryCode
+        - language
 
 
     # Schema for error response body
@@ -303,8 +387,6 @@ components:
         - message
 
 
-
-
   parameters:
     carlineIdPathParameter:
       name: carlineId
@@ -314,9 +396,8 @@ components:
         type: string
         example: "a4limo"
         description: The id of the carline
-
     modelIdParameter:
-      in: query
+      in: path
       name: modelId
       required: true
       schema:
@@ -332,6 +413,7 @@ components:
         type: string
         example: "de"
         description: The code of the cdb language
+
 
   responses:
 
